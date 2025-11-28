@@ -1,1 +1,39 @@
 # Casting
+```
+namespace Casting
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            //int arv = 67;
+            //string arvutekstina = arv.ToString();
+            //Console.WriteLine(arvutekstina);
+            //Console.WriteLine(arv);
+            //double arvdouble = 4363344.3244234d;
+            //int arvdoublearvint = 0;
+            
+            //arvdoublearvint = (int)arvdouble;
+
+            //double uusdouble = arv;
+
+            //string pikkus = "";
+            //Console.WriteLine("sisesta pikkus: ");
+            //pikkus = Console.ReadLine();
+            //float pikkusFm = float.Parse(pikkus);
+            //int pikkusCm = (int)pikkusFm*100;
+            //Console.WriteLine($"Sinu pikkus CMides on {pikkusCm}  ja meetrites {pikkusFm}");
+
+
+
+            float arv1 = 0.45f;
+            float arv2 = 0.55f;
+            Console.WriteLine(arv1);
+            Console.WriteLine(arv2);
+            Console.WriteLine((int)arv1);
+            Console.WriteLine((int)arv2);
+            Console.WriteLine(Math.Round(arv1));
+            Console.WriteLine(Math.Round(arv2));
+        }
+    }
+}
